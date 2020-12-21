@@ -1,0 +1,6 @@
+[submodule "ansible_collections/famedly/matrix"]
+	path = ansible_collections/famedly/matrix
+	url = git@gitlab.com:famedly/ansible/collections/matrix.git
+[submodule "ansible_collections/eigenmatrix/glue"]
+	path = ansible_collections/eigenmatrix/glue
+	url = git@github.com:eigenmatrix-ansible/glue

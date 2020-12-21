@@ -5,9 +5,10 @@ With this playbook, you can run your own matrix homeserver including many bridge
 ## Usage
 
 ```
-git clone https://github.com/eigenmatrix-ansible/playbook.git
-vim host_vars/matrix.myserver.tld # Editing your host
-ansible-playbook site.yml
+git clone --recursive https://github.com/eigenmatrix-ansible/playbook.git
+vim inventories/matrix/host_vars/matrix.myserver.tld # Editing your host
+vim inventories/matrix/hosts.yml # add your host to the inventory
+ansible-playbook ansible_collections/eigenmatrix/glue/playbooks/site.yml # until ansible 2.11 is released
 ```
 
 ## Project scope
